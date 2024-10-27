@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+   overflow-x: hidden;
+}
+a,
+.icon
+{ 
+    cursor: pointer;
+}
+.head{
+    height: max-content;
+    width: 100vw;
+    background:#000;
+    border-radius: 10px;
+    border: 1px  solid red; 
+   
+}
+h1{color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-size: 45px;
+
+}
+ .navbar{
+    height: 8vh;
+    width: 99vw;
+    margin-top:8px;
+   
+    
+}
+.items {
+    display: flex;
+   
+    
+}
+li{
+   
+    margin-left: 25px;
+    margin-right: 25px;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}
+ .icon{
+    align-items: center;
+
+    font-size: 30px;
+    margin-right: 12px;
+    margin-left: 12px;
+    display: none;
+
+}
+.text{
+   font-size: 30px;
+}
+.game{
+    color: #000;
+    
+   
+}
+
+.see{
+    color: blue;
+}
+
+.body{
+    display: flex;
+}
+img{
+    width:300px;
+    border-radius: 12px;
+}
+.img{
+    width:200px;
+    border-radius: 12px;
+
+}
+ .body li { 
+     border: 1px black solid;
+    border-radius: 12px;
+    width: 500px;
+    height:400px;
+    align-items: center;
+    font-size: 30px;
+    padding: 50px;
+    font-weight: 200;
+    background-color: whitesmoke;
+    margin: 70px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}  
+
+.body li a h2{
+    font-size: 20px;
+    padding: 5px;
+    color: #000;
+   
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    height: 15vh;
+   
+  
+}
+.contact{
+    color: white;
+    background-color: #000;
+    margin-bottom: 0;
+}
+
+.element{
+    margin-top: 15px ;
+    margin-left: 25px;
+    
+}
+.fa-instagram,
+.fa-linkedin,
+.fa-telegram,
+.fa-whatsapp
+{
+    color: white;
+    margin-left: 25px;
+    font-size: 50px;
+    overflow-y: hidden;
+}
+.fa-youtube,
+.fa-envelope
+{
+    color: white;
+    margin-left:15px;
+    font-size: 50px;
+    overflow-y: hidden;
+   
+    
+}
+.fa-square-x-twitter{
+    color: white;
+    margin-left: 15px;
+    font-size: 50px;
+    overflow-y: hidden;
+    
+   
+   
+}
+h3{
+    color: white;
+    font-size: 25px;
+    
+  
+}
+.main1{
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.element1 {
+    border: 1px solid red;
+    padding: 19px;
+    margin: 20px;
+    border-radius: 200px;
+
+} 
+.box{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    background-color: whitesmoke;
+    height: 45vh;
+
+}
+.body1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+  
+    
+}
+.year { border: 1px solid red;
+    padding: 19px;
+    margin: 20px;
+    border-radius: 200px;
+    font-size: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.year a{
+    font-size: 50px;
+}
+.main1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

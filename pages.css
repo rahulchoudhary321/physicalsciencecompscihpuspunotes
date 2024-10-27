@@ -1,0 +1,50 @@
+@media screen and (max-width: 550px){
+    .fa-instagram,
+.fa-linkedin,
+.fa-telegram,
+.fa-whatsapp,
+.fa-youtube,
+.fa-envelope,
+.fa-square-x-twitter
+{
+    font-size: 27px;
+}
+}
+@media screen and (max-width: 2700px){
+   
+    nav li {
+        display: none;
+    }
+
+    .icon {
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+
+    .show {
+        display: flex;
+    }
+    .items {
+        flex-direction: column;
+        position: absolute;
+        gap: 15px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        background-color: rgb(93, 110, 93);
+        width: 100vw;
+        margin-top: 60px;
+
+    }
+}
+.fa-instagram,
+.fa-linkedin,
+.fa-telegram,
+.fa-whatsapp,
+.fa-youtube,
+.fa-envelope,
+.fa-square-x-twitter{
+    color: whitesmoke;
+}
